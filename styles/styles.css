@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .selector-for-some-widget {
   box-sizing: content-box;
 }
