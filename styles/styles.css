@@ -22,11 +22,12 @@ div.col-sm-9 div:hover {
 }
 
 /* Estilo para las secciones individuales */
-#section1, #section2, #section3, #section41, #section42 {
-  color: #fff;
-  background-color: #1E88E5;
-  margin: 10px; /* Agrega un pequeño espacio exterior */
-}
+#section1 {color: #fff; background-color: #1E88E5; margin: 10px;}
+#section2 {color: #fff; background-color: #673ab7; margin: 10px;}
+#section3 {color: #fff; background-color: #ff9800; margin: 10px;}
+#section41 {color: #fff; background-color: #00bcd4; margin: 10px;}
+#section42 {color: #fff; background-color: #009688; margin: 10px;}
+
 
 /* Estilo para el texto dentro de las secciones */
 div.col-sm-9 div p {
