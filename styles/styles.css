@@ -27,24 +27,4 @@ div.col-sm-9 div {
   .navbar-collapse.collapse {
     display: none !important;
   }
-.navbar-collapse.collapse.in {
-  display: block !important;
-  }
-.navbar-header .collapse, .navbar-toggle {
-  display: block !important;
-  }
-.navbar-header {
-  float: none;
-  }
-.navbar-nav {
-  float: none !important;
-  margin-top: 7.5px;
-  }
-.navbar-nav > li {
-  float: none;
-  }
-.navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  }
-}
+
