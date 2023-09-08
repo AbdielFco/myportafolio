@@ -47,7 +47,7 @@ div.col-sm-9 div p {
   }
 
 /* Estilo para centrar el contenido del container-fluid de presentación */
-.container-fluid {
+#home-sec {
   text-align: center;
   padding-top: 50px; /* Ajusta la distancia desde la parte superior */
 }
