@@ -5,16 +5,33 @@ body {
   top: 20px;
   z-index: 9999 !important;
   }
+
+/* Estilo para las secciones */
 div.col-sm-9 div {
   height: 100vh; /* 100% del viewport height */
   font-size: 28px;
-  }
+  border-radius: 10px; /* Redondea las esquinas */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra mínima */
+  padding: 20px; /* Ajusta el espacio interno de la sección */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Agrega transiciones para el efecto hover */
+}
+/* Estilo de hover para las secciones */
+div.col-sm-9 div:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Efecto hover de sombra */
+  transform: translate(-2px, -2px); /* Efecto hover de elevación */
+}
 
-#section1 {color: #fff; background-color: #1E88E5;}
-#section2 {color: #fff; background-color: #673ab7;}
-#section3 {color: #fff; background-color: #ff9800;}
-#section41 {color: #fff; background-color: #00bcd4;}
-#section42 {color: #fff; background-color: #009688;}
+/* Estilo para las secciones individuales */
+#section1, #section2, #section3, #section41, #section42 {
+  color: #fff;
+  background-color: #1E88E5;
+  margin: 10px; /* Agrega un pequeño espacio exterior */
+}
+
+/* Estilo para el texto dentro de las secciones */
+div.col-sm-9 div p {
+  margin-left: 10px; /* Ajusta el espacio desde la izquierda del texto */
+}
   
 @media screen and (max-width: 810px) {
     #section1, #section2, #section3, #section41, #section42  {
@@ -27,4 +44,7 @@ div.col-sm-9 div {
   .navbar-collapse.collapse {
     display: none !important;
   }
+
+
+
 
