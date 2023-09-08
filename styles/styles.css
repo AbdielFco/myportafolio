@@ -21,6 +21,9 @@ div.col-sm-9 div:hover {
   transform: translate(-2px, -2px); /* Efecto hover de elevación */
 }
 
+div {
+  text-align: center;
+}
 /* Estilo para las secciones individuales */
 #section1 {color: #fff; background-color: #1E88E5; margin: 10px;}
 #section2 {color: #fff; background-color: #673ab7; margin: 10px;}
