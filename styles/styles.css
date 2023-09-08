@@ -43,12 +43,6 @@ div.col-sm-9 div p {
     }
   }
 
-/* Estilo personalizado para la barra de navegación en dispositivos móviles */
-@media (max-width: 768px) {
-  .navbar-collapse.collapse {
-    display: none !important;
-  }
-
 /* Estilo para centrar el contenido del container-fluid de presentación */
 /* Estilo para centrar el contenido del container-fluid de presentación */
 /* Estilo para centrar el contenido del container-fluid de presentación */
