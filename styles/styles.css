@@ -6,9 +6,10 @@
     z-index: 9999 !important;
   }
   div.col-sm-9 div {
-    height: 250px;
+    height: 100vh; /* 100% del viewport height */
     font-size: 28px;
   }
+
   #section1 {color: #fff; background-color: #1E88E5;}
   #section2 {color: #fff; background-color: #673ab7;}
   #section3 {color: #fff; background-color: #ff9800;}
