@@ -1,23 +1,50 @@
-  body {
-    position: relative;
+body {
+  position: relative;
   }
-  .affix {
-    top: 20px;
-    z-index: 9999 !important;
+.affix {
+  top: 20px;
+  z-index: 9999 !important;
   }
-  div.col-sm-9 div {
-    height: 100vh; /* 100% del viewport height */
-    font-size: 28px;
+div.col-sm-9 div {
+  height: 100vh; /* 100% del viewport height */
+  font-size: 28px;
   }
 
-  #section1 {color: #fff; background-color: #1E88E5;}
-  #section2 {color: #fff; background-color: #673ab7;}
-  #section3 {color: #fff; background-color: #ff9800;}
-  #section41 {color: #fff; background-color: #00bcd4;}
-  #section42 {color: #fff; background-color: #009688;}
+#section1 {color: #fff; background-color: #1E88E5;}
+#section2 {color: #fff; background-color: #673ab7;}
+#section3 {color: #fff; background-color: #ff9800;}
+#section41 {color: #fff; background-color: #00bcd4;}
+#section42 {color: #fff; background-color: #009688;}
   
-  @media screen and (max-width: 810px) {
+@media screen and (max-width: 810px) {
     #section1, #section2, #section3, #section41, #section42  {
       margin-left: 150px;
     }
   }
+
+/* Estilo personalizado para la barra de navegación en dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+.navbar-collapse.collapse.in {
+  display: block !important;
+  }
+.navbar-header .collapse, .navbar-toggle {
+  display: block !important;
+  }
+.navbar-header {
+  float: none;
+  }
+.navbar-nav {
+  float: none !important;
+  margin-top: 7.5px;
+  }
+.navbar-nav > li {
+  float: none;
+  }
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+}
