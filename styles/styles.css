@@ -1,10 +1,5 @@
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
-
 body {
   position: relative;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .affix {
