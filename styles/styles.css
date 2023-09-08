@@ -47,9 +47,15 @@ div.col-sm-9 div p {
   }
 
 /* Estilo para centrar el contenido del container-fluid de presentación */
+/* Estilo para centrar el contenido del container-fluid de presentación */
 #home-sec {
   text-align: center;
   padding-top: 50px; /* Ajusta la distancia desde la parte superior */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 
