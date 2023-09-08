@@ -4,11 +4,73 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="scripts/script.js"></script>
+  <style>
+    /* Estilos CSS aquí */
+    body {
+      position: relative;
+    }
+
+    .affix {
+      top: 20px;
+      z-index: 9999 !important;
+    }
+
+    div.col-sm-9 div {
+      height: 100vh; /* 100% del viewport height */
+      font-size: 28px;
+    }
+
+    #section1 {
+      color: #fff;
+      background-color: #1E88E5;
+    }
+
+    #section2 {
+      color: #fff;
+      background-color: #673ab7;
+    }
+
+    #section3 {
+      color: #fff;
+      background-color: #ff9800;
+    }
+
+    #section41 {
+      color: #fff;
+      background-color: #00bcd4;
+    }
+
+    #section42 {
+      color: #fff;
+      background-color: #009688;
+    }
+
+    @media screen and (max-width: 810px) {
+      #section1, #section2, #section3, #section41, #section42 {
+        margin-left: 150px;
+      }
+    }
+  </style>
+  <script>
+    // JavaScript aquí
+    $(document).ready(function() {
+      // Captura el clic en los enlaces de navegación con scroll suave
+      $('a.nav-link').on('click', function(event) {
+        event.preventDefault();
+
+        // Obtiene el atributo href del enlace
+        var target = $(this).attr('href');
+
+        // Realiza el desplazamiento suave hacia el objetivo
+        $('html, body').animate({
+          scrollTop: $(target).offset().top
+        }, 800); // Puedes ajustar la velocidad de la animación aquí
+      });
+    });
+  </script>
 </head>
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
   <!-- Navbar -->
@@ -43,7 +105,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-3">
-        <!-- Side menu content goes here -->
+        <!-- Sidebar content goes here -->
+        <!-- Mantén el contenido original del sidebar -->
       </div>
       <div class="col-sm-9">
         <div id="section1">    
